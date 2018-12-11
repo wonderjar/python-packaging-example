@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wonderjar_pkg",
-    version="0.0.1",
+    version="0.0.3",
     author="wonderjar",
     author_email="jarancn@gmail.com",
     description="A small example package",
