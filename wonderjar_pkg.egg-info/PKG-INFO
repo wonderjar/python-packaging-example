@@ -21,6 +21,24 @@ Description: # python-packaging-example
         
         ```
         
+        
+        在其他项目
+        
+        
+        或者使用 setup.py
+        
+        ```
+        	install_requires=['wonderjar_pkg'],
+            dependency_links=[
+                'git+https://github.com/wonderjar/python-packaging-example.git@0.0.1#egg=wonderjar_pkg-0.0.1'
+            ],
+        ```
+        
+        ```
+        pip install -e . --process-dependency-links
+        ```
+        
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
