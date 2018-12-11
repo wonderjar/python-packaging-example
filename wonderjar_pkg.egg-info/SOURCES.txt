@@ -1,0 +1,7 @@
+README.md
+setup.py
+wonderjar_pkg/__init__.py
+wonderjar_pkg.egg-info/PKG-INFO
+wonderjar_pkg.egg-info/SOURCES.txt
+wonderjar_pkg.egg-info/dependency_links.txt
+wonderjar_pkg.egg-info/top_level.txt

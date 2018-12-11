@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: example-pkg
+Name: wonderjar-pkg
 Version: 0.0.1
 Summary: A small example package
 Home-page: https://github.com/wonderjar/python-packaging-example
@@ -11,7 +11,16 @@ Description: # python-packaging-example
         
         Reference
         
-        https://packaging.python.org/tutorials/packaging-projects/
+        https://packaging.python.org/tutorials/packaging-projects/https://packaging.python.org/tutorials/packaging-projects/
+        
+        
+        ```
+        pip install setuptools wheel
+        
+        python setup.py sdist bdist_wheel
+        
+        ```
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
