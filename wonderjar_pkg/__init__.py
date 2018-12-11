@@ -1,1 +1,1 @@
-name = "example_pkg"
+name = "wonderjar_pkg_0.0.1"
