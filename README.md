@@ -16,7 +16,9 @@ python setup.py sdist bdist_wheel
 
 在其他项目
 
-pip install 
+```
+pip install git+https://github.com/wonderjar/python-packaging-example.git@0.0.3
+```
 
 或者使用 setup.py
 
